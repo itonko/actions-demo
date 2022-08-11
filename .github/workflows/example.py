@@ -1,5 +1,9 @@
-import sys
+mport os
+
+
   
 if __name__ == '__main__':
-  print(sys.argv[1])
+  input_variable = os.environ['INPUT_STORE']
+
+  print("Input Variable:", input_variable)
  
