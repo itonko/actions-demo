@@ -1,7 +1,5 @@
-
-def main():
-  print("Hello!")
+import sys
   
 if __name__ == '__main__':
-  main()
+  print(sys.args[1])
  
