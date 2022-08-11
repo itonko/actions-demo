@@ -1,5 +1,5 @@
 import sys
   
 if __name__ == '__main__':
-  print(sys.args[1])
+  print(sys.argv[1])
  
